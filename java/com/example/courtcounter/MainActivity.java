@@ -58,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
         scoreViewA.setText(String.valueOf(scoreTeamA));
     }
 
+    /**
+     * Displays the given score for Team B.
+     */
+
     public void displayForTeamB(int scoreTeamB) {
         TextView scoreViewB = (TextView) findViewById(R.id.team_b_score);
         scoreViewB.setText(String.valueOf(scoreTeamB));
